@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //The website nagivation top bar
-class Penguin_navBar extends Component {
+class PENGUIN_NAVBAR extends Component {
     state = {  }
     render() { 
         return ( 
@@ -14,4 +14,4 @@ class Penguin_navBar extends Component {
     }
 }
  
-export default Penguin_navBar;
+export default PENGUIN_NAVBAR;

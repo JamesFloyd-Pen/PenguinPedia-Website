@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //The footer
-class Penguin_footer extends Component {
+class PENGUIN_FOOTER extends Component {
     state = {  }
     render() { 
         return (
@@ -14,4 +14,4 @@ class Penguin_footer extends Component {
     }
 }
  
-export default Penguin_footer;
+export default PENGUIN_FOOTER;
