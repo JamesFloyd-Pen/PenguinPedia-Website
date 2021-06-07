@@ -1,18 +1,17 @@
+import React from "react";
 import './components/styles/App.css';
-import './components/PENGUIN_NAVBAR';
-import './components/PENGUIN_FOOTER';
-import './components/common/body/PENGUIN_BODY_VID';
-import PENGUIN_NAVBAR from './components/PENGUIN_NAVBAR';
-import PENGUIN_FOOTER from './components/PENGUIN_FOOTER';
-import PENGUIN_BODY_VID from './components/common/body/PENGUIN_BODY_VID';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Home";
 
 function App() {
   return (
-    <div>
-      <PENGUIN_NAVBAR />
-      <PENGUIN_BODY_VID/>
-      <PENGUIN_FOOTER />
-
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route exact="/" component={Home}></Route>
+        </Switch>
+      </Router>
+ 
     </div>
 
   );
