@@ -27,3 +27,13 @@
 footer {
   background-color: #61dafb;
 }
+
+.penguin-hero-body{
+  height: 2000px;
+  width: auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 50px;
+
+
+}
