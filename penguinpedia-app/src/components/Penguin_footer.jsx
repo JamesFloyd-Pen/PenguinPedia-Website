@@ -7,7 +7,15 @@ class PENGUIN_FOOTER extends Component {
         return (
             <footer> 
                 <div>
-                    <h1>HELLO!</h1>
+                    <h1>PenguinPedia</h1>
+                    <div className="Row-Foot-Container">
+                        <ul>
+                            <li>About</li>
+                            <li>Donate</li>
+                            <li><a href="https://github.com/JamesFloyd-Pen">Github</a></li>
+                        </ul>
+
+                    </div>
                 </div>
             </footer>
           );

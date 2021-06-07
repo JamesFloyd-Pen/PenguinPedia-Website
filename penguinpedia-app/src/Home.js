@@ -10,7 +10,6 @@ import PENGUIN_BODY_VID from './components/common/body/PENGUIN_BODY_VID';
 function Home(){
     return(
         <div>
-
             <PENGUIN_NAVBAR />
             <PENGUIN_BODY_VID />
             <PENGUIN_FOOTER />
