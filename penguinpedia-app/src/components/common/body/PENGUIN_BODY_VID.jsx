@@ -3,6 +3,7 @@ import React,
 
 const backgroundImage = process.env.PUBLIC_URL + '/HD_Emperor_Penguin.jpg';
 //const backgroundImage = process.env.src +'src/components/images/HD_Emperor_Penguin.jpg';
+//
 
 
 class PENGUIN_BODY_VID extends Component {
