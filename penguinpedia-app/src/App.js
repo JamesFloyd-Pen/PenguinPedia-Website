@@ -18,3 +18,10 @@ function App() {
 }
 
 export default App;
+
+/*
+TODO
+1. Fix up the Home Page
+2.Make a Penguin Entry
+
+*/
