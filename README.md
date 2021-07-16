@@ -7,5 +7,8 @@ PenguinPedia website version of an encyclopedia of the known penguins on the pla
 - ReactJS
 - Javascript
 - CSS
+- Bootstrap
+- Editor: Visual Studio Code
 
 # ProtoType 
+![Demo One](https://github.com/JamesFloyd-Pen/PenguinPedia-Website/blob/main/WebsiteDemoSmall.png?raw=true)
