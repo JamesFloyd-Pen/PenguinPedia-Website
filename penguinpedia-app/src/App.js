@@ -21,8 +21,7 @@ export default App;
 
 /*
 TODO
-1. Fix up the Home Page
-2. Make a Penguin Entry
-3. Fix the Layout
-
+1. Improve the Layout of the home page
+2. Improve orgazination of the file directories
+3. Build a prototype template and framework
 */
