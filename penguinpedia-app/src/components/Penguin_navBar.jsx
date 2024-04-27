@@ -14,8 +14,7 @@ class PENGUIN_NAVBAR extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="./src/index">Home
-                                                        </Nav.Link>
+                        <Nav.Link href="./src/index">Home</Nav.Link>
                         <Nav.Link href="">About</Nav.Link>
                         <NavDropdown title="Penguins" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://www.knowledgefactory.net

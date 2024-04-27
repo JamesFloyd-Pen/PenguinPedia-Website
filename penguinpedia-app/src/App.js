@@ -21,8 +21,6 @@ export default App;
 
 /*
 TODO
-1. Fix up the Home Page
-2. Make a Penguin Entry
-3. Fix the Layout
+https://trello.com/b/AsGN7RJl/penguinpedia-website
 
 */
