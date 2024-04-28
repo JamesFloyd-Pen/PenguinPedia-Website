@@ -12,13 +12,13 @@ import PENGUIN_BODY_HERO_DAILYPENGUIN from "../components/common/body/card/PENGU
 function Home(){
     return(
         <div className="Hero">
-            <PENGUIN_NAVBAR />
             <PENGUIN_BODY_VID />
             <PENGUIN_BODY_HERO_DAILYPENGUIN />
             <PENGUIN_FOOTER />
         </div>
     );
 
+//            <PENGUIN_NAVBAR />
 
 }
 export default Home;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,8 +15,8 @@ class PENGUIN_NAVBAR extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="./src/index">Home</Nav.Link>
-                        <Nav.Link to="/About">About</Nav.Link>
+                        <Nav.Link to="/About">Home</Nav.Link>
+                        <Nav.Link><Link to="/About">About</Link></Nav.Link>
                         <NavDropdown title="Penguins" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://www.knowledgefactory.net
                               /p/reactjs-tutorial.html">List of Penguins</NavDropdown.Item>
