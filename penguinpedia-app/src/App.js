@@ -10,20 +10,16 @@ import PENGUIN_NAVBAR from "./components/PENGUIN_NAVBAR";
 function App() {
   return (
     <div className="App">
-      <Router>
+    <Router>
       <PENGUIN_NAVBAR />
-
-        <Switch>
-          <Route index component={Home}></Route>
-          <Route path="/" component={Home}></Route>
-          <Route path="/About" component={About}></Route>
-          <Route path="/Penguins" component={Penguins}></Route>
-          <Route path="/Location" component={Location}></Route>
-          
-        </Switch>
-      </Router>
- 
-    </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/Penguins" component={Penguins} />
+        <Route path="/Location" component={Location} />
+      </Switch>
+    </Router>
+  </div>
 
   );
 }
@@ -33,6 +29,11 @@ export default App;
 /*
 TODO
           <PENGUIN_NAVBAR/>
+          <Route index component={Home}></Route>
+              <Route path="/" component={Home}></Route>
+          <Route path="/About" component={About}></Route>
+          <Route path="/Penguins" component={Penguins}></Route>
+          <Route path="/Location" component={Location}></Route>
 
 https://trello.com/b/AsGN7RJl/penguinpedia-website
 
