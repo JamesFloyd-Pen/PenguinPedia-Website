@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -18,6 +18,8 @@ class PENGUIN_NAVBAR extends Component {
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/About">About</Nav.Link>
                         <Nav.Link as={Link} to="/Penguins">Penguins</Nav.Link>
+                        <Nav.Link as={Link} to="/Location">Locations</Nav.Link>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
@@ -30,7 +32,7 @@ class PENGUIN_NAVBAR extends Component {
  
 export default PENGUIN_NAVBAR;
 /*            <Outlet />
-
+NavDropdown, Form, Button, FormControl from 'react-bootstrap';
 
 <Navbar bg="primary" variant="dark" expand="lg">
                 <Navbar.Brand as={Link} to="/"> PenguinPedia</Navbar.Brand>

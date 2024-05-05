@@ -7,8 +7,8 @@ class PENGUIN_FOOTER extends Component {
         return (
             <footer> 
                 <div>
+                <div className="Row-Foot-Container">
                     <h1>PenguinPedia</h1>
-                    <div className="Row-Foot-Container">
                         <ul>
                             <li>About</li>
                             <li><a href="https://www.penguinsinternational.org/donate/">Donate</a></li>
