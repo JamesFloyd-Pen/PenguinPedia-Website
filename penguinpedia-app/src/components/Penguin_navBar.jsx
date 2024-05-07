@@ -19,6 +19,8 @@ class PENGUIN_NAVBAR extends Component {
                         <Nav.Link as={Link} to="/About">About</Nav.Link>
                         <Nav.Link as={Link} to="/Penguins">Penguins</Nav.Link>
                         <Nav.Link as={Link} to="/Location">Locations</Nav.Link>
+                        <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
+
 
                     </Nav>
                 </Navbar.Collapse>

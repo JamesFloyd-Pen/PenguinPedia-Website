@@ -5,7 +5,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Penguins from "./pages/Penguins";
 import Location from "./pages/Location";
+import Contact from "./pages/Contact";
 import PENGUIN_NAVBAR from "./components/PENGUIN_NAVBAR";
+import PENGUIN_FOOTER from "./components/PENGUIN_FOOTER";
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/Penguins" component={Penguins} />
         <Route path="/Location" component={Location} />
+        <Route path="/Contact" component={Contact} />
       </Switch>
+      <PENGUIN_FOOTER />
+
     </Router>
   </div>
 

@@ -74,3 +74,24 @@ footer {
 .Row-Foot-Container a:hover {
   color: lightblue;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+.social-media-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-links li {
+  margin: 0 10px;
+}
