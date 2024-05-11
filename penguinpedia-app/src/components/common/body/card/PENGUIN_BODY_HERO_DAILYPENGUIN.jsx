@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, Button, CardGroup } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CARD_IMAGE_STYLE = {
@@ -20,7 +21,9 @@ class PENGUIN_BODY_HERO_DAILYPENGUIN extends Component {
                     <Card.Text>
                         The Emperor Penguin is the largest penguins in the world, and inhabit in antarctica. 
                     </Card.Text>
-                    <Button variant="primary">Learn More</Button>
+                    <Link to="/EmperorPenguin">
+                        <Button variant="primary">Learn More</Button>
+                    </Link>
                 </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>

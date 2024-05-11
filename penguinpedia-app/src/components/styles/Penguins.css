@@ -1,0 +1,21 @@
+/**
+
+The Template for all Penguin Pages. All wuld be styled the same way.
+
+*/
+
+**/
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-section {
+    width: 45%;
+  }
+
+  .info-penguin-box {
+    width: 45%;
+
+  }

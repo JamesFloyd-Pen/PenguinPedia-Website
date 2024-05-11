@@ -1,6 +1,7 @@
 import React, 
 { Component } from 'react';
 
+
 const backgroundImage = process.env.PUBLIC_URL + '/images/HD_Emperor_Penguin.jpg';
 //const backgroundImage = process.env.src +'src/components/images/HD_Emperor_Penguin.jpg';
 

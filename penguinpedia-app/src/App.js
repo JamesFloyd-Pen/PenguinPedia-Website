@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Penguins from "./pages/Penguins";
 import Location from "./pages/Location";
 import Contact from "./pages/Contact";
+import EmperorPenguin from "./pages/Emperor_Penguin";
 import PENGUIN_NAVBAR from "./components/PENGUIN_NAVBAR";
 import PENGUIN_FOOTER from "./components/PENGUIN_FOOTER";
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Penguins" component={Penguins} />
         <Route path="/Location" component={Location} />
         <Route path="/Contact" component={Contact} />
+        <Route path="/EmperorPenguin" component={EmperorPenguin} />
       </Switch>
       <PENGUIN_FOOTER />
 
