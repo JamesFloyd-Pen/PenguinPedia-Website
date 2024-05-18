@@ -5,11 +5,19 @@ import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 
 function EmperorPenguin() {
   return (
-    <div className="info-container">
+    <div className="info-container center-content">
       <div class="row">
-        <div className="info-penguin-box" >
+        <div className="info-section" class="col">
+          <h2>Overview</h2>
+          <div className="image-box space-below">
+            <img src={penguinImage} alt="Emperor Penguin" />
+          </div>
+          <p className="overview-text">
+            The Emperor Penguin is the largest and heaviest of all penguin species. They are native to Antarctica and are known for their unique breeding habits. Emperor Penguins are the only penguins that breed during the harsh Antarctic winter. They are also the deepest diving and the most aquatic of all penguins.
+          </p>
+        </div>
+        <div className="info-penguin-box" class="col-3">
           <h2>Penguin Facts</h2>
-          <img src={penguinImage} alt="Emperor Penguin" />
           <ul>
             <li><strong>Name:</strong> Emperor Penguin </li>
             <li><strong>Scientific Name:</strong> Aptenodytes forsteri</li>
@@ -21,12 +29,6 @@ function EmperorPenguin() {
             <li><strong>Population:</strong> Around 595,000</li>
             <li><strong>Habitat:</strong> Sea ice in Antarctica</li>
           </ul>
-        </div>
-        <div className="info-section" class="col">
-          <h2>Overview</h2>
-          <p>
-            The Emperor Penguin is the largest and heaviest of all penguin species. They are native to Antarctica and are known for their unique breeding habits. Emperor Penguins are the only penguins that breed during the harsh Antarctic winter. They are also the deepest diving and the most aquatic of all penguins.
-          </p>
         </div>
       </div>
     </div>
