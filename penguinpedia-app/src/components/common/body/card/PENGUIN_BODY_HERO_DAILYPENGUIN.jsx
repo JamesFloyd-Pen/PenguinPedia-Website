@@ -9,6 +9,18 @@ const CARD_IMAGE_STYLE = {
     display: 'block',
     margin: 'auto'
 };
+/*
+ width: '100%',
+  height: 'auto',
+  objectFit: 'cover',
+  borderRadius: '10px',
+  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+  transition: '0.3s',
+      objectFit: 'cover',
+
+
+
+*/
 
 class PENGUIN_BODY_HERO_DAILYPENGUIN extends Component {
     state = {  }
