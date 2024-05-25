@@ -40,3 +40,11 @@ The Template for all Penguin Pages. All wuld be styled the same way.
   text-align: center;
   line-height: 1.5; /* adjust as needed */
 }
+
+.penguin-image {
+  height: 50%;
+  padding-bottom: 20%;
+  object-fit: cover;
+
+
+}
