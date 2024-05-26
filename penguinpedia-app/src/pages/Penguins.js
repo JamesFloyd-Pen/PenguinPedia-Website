@@ -10,6 +10,8 @@ import GentooPenguin_Img from '../components/img/gentoopenguin-one.jpg';
 import KingPenguin_Img from '../components/img/kingpenguin-one.jpg';
 import AdeliePenguin_Img from '../components/img/adelie-penguin.jpg';
 import ChinstrapPenguin_Img from '../components/img/chinstrap-penguin.jpg';
+import MacoaroniPenguin_Img from '../components/img/macaronipenguin.jpg';
+import LilBluePen_Img from '../components/img/lilblue-penguin.jpg';
 import '../components/styles/Penguins.css';
 
 
@@ -20,8 +22,8 @@ function Penguins() {
         { name: 'Gentoo Penguin', imageUrl: GentooPenguin_Img, description: 'description3', link: '/GentooPenguin'},
         { name: 'Adelie Penguin', imageUrl: AdeliePenguin_Img, description: 'description4', link: '/AdeliePenguin'},
         { name: 'Chinstrap Penguin', imageUrl: ChinstrapPenguin_Img, description: 'description5', link: '/ChinstrapPenguin'},
-        { name: 'Macaroni Penguin', imageUrl: 'url7', description: 'description7', link: '/MacaroniPenguin'},
-        { name: 'Little Blue Penguin', imageUrl: 'url8', description: 'description8', link: '/LittleBluePenguin'},
+        { name: 'Macaroni Penguin', imageUrl: MacoaroniPenguin_Img, description: 'description7', link: '/MacaroniPenguin'},
+        { name: 'Little Blue Penguin', imageUrl: LilBluePen_Img, description: 'description8', link: '/LittleBluePenguin'},
         { name: 'African Penguin', imageUrl: 'url9', description: 'description9', link: '/AfricanPenguin'},
         { name: 'Fiordland Penguin', imageUrl: 'url10', description: 'description10', link: '/FiordlandPenguin'},
         { name: 'Galapagos Penguin', imageUrl: 'url11', description: 'description11', link: '/GalapagosPenguin'},
@@ -35,7 +37,6 @@ function Penguins() {
         { name: 'Erect-crested Penguin', imageUrl: 'url19', description: 'description19', link: '/ErectCrestedPenguin'},
         { name: 'Macquarie Island Penguin', imageUrl: 'url20', description: 'description20', link: '/MacquarieIslandPenguin'},
         { name: 'White-flippered Penguin', imageUrl: 'url21', description: 'description21', link: '/WhiteFlipperedPenguin'},
-        { name: 'Humboldt Penguin', imageUrl: 'url24', description: 'description24', link: '/HumboldtPenguin'},
         // Add more penguin objects as needed
     ];
 
@@ -48,9 +49,6 @@ function Penguins() {
                             <Card.Img variant="top" src={penguin.imageUrl} className="penguin-image" />
                             <Card.Body>
                                 <Card.Title>{penguin.name}</Card.Title>
-                                <Card.Text>
-                                    {penguin.description}
-                                </Card.Text>
                                 <Link to={penguin.link}>
                                     <Button variant="primary">Learn More</Button>
                                 </Link>
@@ -67,6 +65,8 @@ export default Penguins;
 
 /*
 Code Storage
-
+<Card.Text>
+                                    {penguin.description}
+                                </Card.Text>
 
 */

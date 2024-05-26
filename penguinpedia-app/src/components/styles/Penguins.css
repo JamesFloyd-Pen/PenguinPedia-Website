@@ -42,9 +42,11 @@ The Template for all Penguin Pages. All wuld be styled the same way.
 }
 
 .penguin-image {
-  height: 50%;
-  padding-bottom: 20%;
+  aspect-ratio: 2 / 1;
   object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
 
-
+.penguin-image:hover {
+  transform: scale(1.1);
 }

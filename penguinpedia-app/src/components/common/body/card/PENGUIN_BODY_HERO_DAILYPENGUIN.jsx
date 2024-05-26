@@ -44,7 +44,9 @@ class PENGUIN_BODY_HERO_DAILYPENGUIN extends Component {
                     <Card.Text>
                         The Fairy Penguin is the smallest penguin in the world. 
                     </Card.Text>
-                    <Button variant="primary">Learn More</Button>
+                    <Link to="/LittleBluePenguin">
+                        <Button variant="primary">Learn More</Button>
+                    </Link>
                 </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
@@ -53,7 +55,9 @@ class PENGUIN_BODY_HERO_DAILYPENGUIN extends Component {
                     <Card.Text> 
                         African Penguin 
                     </Card.Text>
-                    <Button variant="primary">Learn More</Button>
+                    <Link to="/AfricanPenguin">
+                        <Button variant="primary">Learn More</Button>
+                    </Link>
                 </Card.Body>
           </Card>
           </CardGroup>
