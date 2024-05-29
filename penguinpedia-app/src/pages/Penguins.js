@@ -18,6 +18,11 @@ import GalapagosPenguin_Img from '../components/img/galapagos-penguin.jpg';
 import HumboldtPenguin_Img from '../components/img/humboldt-penguin.jpg';
 import MagellanicPenguin_Img from '../components/img/magellanic-penguin.jpg';
 import YellowEyedPenguin_Img from '../components/img/yellow-eyed-penguin.jpeg';
+import NorthernRockhopperPenguin_Img from '../components/img/northernrockhopper-penguin.jpg';
+import SouthernRockhopperPenguin_Img from '../components/img/southernrockhopper-penguin.jpg';
+import SnaresPenguin_Img from '../components/img/snares-penguin.jpg';
+import RoyalPenguin_Img from '../components/img/royal-penguin.jpg';
+import ErectCrestedPenguin_Img from '../components/img/erect-crested-penguin.jpg';
 import '../components/styles/Penguins.css';
 
 
@@ -36,13 +41,11 @@ function Penguins() {
         { name: 'Humboldt Penguin', imageUrl: HumboldtPenguin_Img, description: 'description12', link: '/HumboldtPenguin'},
         { name: 'Magellanic Penguin', imageUrl:MagellanicPenguin_Img, description: 'description13', link: '/MagellanicPenguin'},
         { name: 'Yellow-eyed Penguin', imageUrl: YellowEyedPenguin_Img, description: 'description14', link: '/YellowEyedPenguin'},
-        { name: 'Northern Rockhopper Penguin', imageUrl: 'url15', description: 'description15', link: '/NorthernRockhopperPenguin'},
-        { name: 'Southern Rockhopper Penguin', imageUrl: 'url16', description: 'description16', link: '/SouthernRockhopperPenguin'},
-        { name: 'Snares Penguin', imageUrl: 'url17', description: 'description17', link: '/SnaresPenguin'},
-        { name: 'Royal Penguin', imageUrl: 'url18', description: 'description18', link: '/RoyalPenguin'},
-        { name: 'Erect-crested Penguin', imageUrl: 'url19', description: 'description19', link: '/ErectCrestedPenguin'},
-        { name: 'Macquarie Island Penguin', imageUrl: 'url20', description: 'description20', link: '/MacquarieIslandPenguin'},
-        { name: 'White-flippered Penguin', imageUrl: 'url21', description: 'description21', link: '/WhiteFlipperedPenguin'},
+        { name: 'Northern Rockhopper Penguin', imageUrl: NorthernRockhopperPenguin_Img, description: 'description15', link: '/NorthernRockhopperPenguin'},
+        { name: 'Southern Rockhopper Penguin', imageUrl: SouthernRockhopperPenguin_Img, description: 'description16', link: '/SouthernRockhopperPenguin'},
+        { name: 'Snares Penguin', imageUrl: SnaresPenguin_Img, description: 'description17', link: '/SnaresPenguin'},
+        { name: 'Royal Penguin', imageUrl: RoyalPenguin_Img, description: 'description18', link: '/RoyalPenguin'},
+        { name: 'Erect-crested Penguin', imageUrl: ErectCrestedPenguin_Img, description: 'description19', link: '/ErectCrestedPenguin'},
         // Add more penguin objects as needed
     ];
 
