@@ -6,12 +6,18 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Link from 'react-router-dom/Link';
 import EmperorPenguin_Img from '../components/img/emperorpenguin.jpg';
-import GentooPenguin_Img from '../components/img/gentoopenguin-one.jpg';
-import KingPenguin_Img from '../components/img/kingpenguin-one.jpg';
+import GentooPenguin_Img from '../components/img/gentoopenguin-two.jpg';
+import KingPenguin_Img from '../components/img/kingpenguin-two.jpg';
 import AdeliePenguin_Img from '../components/img/adelie-penguin.jpg';
 import ChinstrapPenguin_Img from '../components/img/chinstrap-penguin.jpg';
 import MacoaroniPenguin_Img from '../components/img/macaronipenguin.jpg';
 import LilBluePen_Img from '../components/img/lilblue-penguin.jpg';
+import AfricanPenguin_Img from '../components/img/africanpenguin.jpg';
+import FiordlandPenguin_Img from '../components/img/fiordland-penguin.jpg';
+import GalapagosPenguin_Img from '../components/img/galapagos-penguin.jpg';
+import HumboldtPenguin_Img from '../components/img/humboldt-penguin.jpg';
+import MagellanicPenguin_Img from '../components/img/magellanic-penguin.jpg';
+import YellowEyedPenguin_Img from '../components/img/yellow-eyed-penguin.jpeg';
 import '../components/styles/Penguins.css';
 
 
@@ -24,12 +30,12 @@ function Penguins() {
         { name: 'Chinstrap Penguin', imageUrl: ChinstrapPenguin_Img, description: 'description5', link: '/ChinstrapPenguin'},
         { name: 'Macaroni Penguin', imageUrl: MacoaroniPenguin_Img, description: 'description7', link: '/MacaroniPenguin'},
         { name: 'Little Blue Penguin', imageUrl: LilBluePen_Img, description: 'description8', link: '/LittleBluePenguin'},
-        { name: 'African Penguin', imageUrl: 'url9', description: 'description9', link: '/AfricanPenguin'},
-        { name: 'Fiordland Penguin', imageUrl: 'url10', description: 'description10', link: '/FiordlandPenguin'},
-        { name: 'Galapagos Penguin', imageUrl: 'url11', description: 'description11', link: '/GalapagosPenguin'},
-        { name: 'Humboldt Penguin', imageUrl: 'url12', description: 'description12', link: '/HumboldtPenguin'},
-        { name: 'Magellanic Penguin', imageUrl: 'url13', description: 'description13', link: '/MagellanicPenguin'},
-        { name: 'Yellow-eyed Penguin', imageUrl: 'url14', description: 'description14', link: '/YellowEyedPenguin'},
+        { name: 'African Penguin', imageUrl: AfricanPenguin_Img, description: 'description9', link: '/AfricanPenguin'},
+        { name: 'Fiordland Penguin', imageUrl: FiordlandPenguin_Img, description: 'description10', link: '/FiordlandPenguin'},
+        { name: 'Galapagos Penguin', imageUrl: GalapagosPenguin_Img, description: 'description11', link: '/GalapagosPenguin'},
+        { name: 'Humboldt Penguin', imageUrl: HumboldtPenguin_Img, description: 'description12', link: '/HumboldtPenguin'},
+        { name: 'Magellanic Penguin', imageUrl:MagellanicPenguin_Img, description: 'description13', link: '/MagellanicPenguin'},
+        { name: 'Yellow-eyed Penguin', imageUrl: YellowEyedPenguin_Img, description: 'description14', link: '/YellowEyedPenguin'},
         { name: 'Northern Rockhopper Penguin', imageUrl: 'url15', description: 'description15', link: '/NorthernRockhopperPenguin'},
         { name: 'Southern Rockhopper Penguin', imageUrl: 'url16', description: 'description16', link: '/SouthernRockhopperPenguin'},
         { name: 'Snares Penguin', imageUrl: 'url17', description: 'description17', link: '/SnaresPenguin'},
