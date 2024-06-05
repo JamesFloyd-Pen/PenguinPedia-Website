@@ -2,15 +2,16 @@ import React,
 { Component } from 'react';
 
 
-const backgroundImage = process.env.PUBLIC_URL + '/images/HD_Emperor_Penguin.jpg';
+//const backgroundImage = process.env.PUBLIC_URL + '/images/HD_Emperor_Penguin.jpg';
 //const backgroundImage = process.env.src +'src/components/images/HD_Emperor_Penguin.jpg';
+//style={{ 'backgroundImage': `url(${backgroundImage})` }}
 
 
 class PENGUIN_BODY_VID extends Component {
     state = {  }
     render() { 
         return ( 
-                <div className="penguin-hero-body" style={{ 'backgroundImage': `url(${backgroundImage})` }}>
+                <div className="penguin-hero-body" >
                     <h1> Welcome to PenguinPedia! </h1> 
                     <br></br>
 
