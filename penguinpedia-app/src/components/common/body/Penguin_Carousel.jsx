@@ -1,30 +1,36 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import penguinImage1 from './chinstrap-penguin-test.jpg';
+import Link from 'react-router-dom/Link';
+import './Penguin_Carousel.css';
 
 class Penguin_Carousel extends React.Component {
     render() {
         return (
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img className="d-block w-100" src="..." alt="First slide" />
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="..." alt="Second slide" />
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="..." alt="Third slide" />
-                    </div>
-                </div>
-                <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-            </div>
+            <Carousel interval={3000}>
+                <Carousel.Item>
+                    <img className="d-block w-70" src={penguinImage1} alt="First slide" />
+                    <Carousel.Caption>
+                        <h5>Chinstrap-penguin</h5>
+                        <p>One of the five penguin species of the Antarctic</p>
+                        <Link to="/ChinstrapPenguin">
+                            <button type="button" className="btn btn-primary">Learn More</button>
+                        </Link>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="d-block w-70" src={penguinImage1} alt="Second slide" />
+                    <Carousel.Caption>
+                        <h1>Slide Two</h1>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="d-block w-70" src={penguinImage1} alt="Third slide" />
+                    <Carousel.Caption>
+                        <h1>Slide Three</h1>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
         );
     }
 }
