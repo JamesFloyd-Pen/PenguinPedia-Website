@@ -15,11 +15,11 @@ function Home(){
         <div className="Hero" style={{ 'backgroundImage': `url(${backgroundImage})` }}>
             <PENGUIN_BODY_VID />
             <PENGUIN_CAROUSEL /> 
-            <PENGUIN_BODY_HERO_DAILYPENGUIN />
         </div>
     );
 
 //            <PENGUIN_NAVBAR />
+//            <PENGUIN_BODY_HERO_DAILYPENGUIN />
 
 }
 export default Home;

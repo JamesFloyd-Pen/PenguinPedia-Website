@@ -9,10 +9,10 @@ class Penguin_Carousel extends React.Component {
         return (
             <Carousel interval={3000}>
                 <Carousel.Item>
-                    <img className="d-block w-70" src={penguinImage1} alt="First slide" />
+                    <img className="d-block w-25" src={penguinImage1} alt="First slide" />
                     <Carousel.Caption>
                         <h5>Chinstrap-penguin</h5>
-                        <p>One of the five penguin species of the Antarctic</p>
+                        <p class="orange-text">One of the five penguin species of the Antarctic</p>
                         <Link to="/ChinstrapPenguin">
                             <button type="button" className="btn btn-primary">Learn More</button>
                         </Link>
@@ -21,13 +21,21 @@ class Penguin_Carousel extends React.Component {
                 <Carousel.Item>
                     <img className="d-block w-70" src={penguinImage1} alt="Second slide" />
                     <Carousel.Caption>
-                        <h1>Slide Two</h1>
+                        <h5>Emperor Penguin</h5>
+                        <p class="orange-text">The Largeset Penguin in the World</p>
+                        <Link to="/EmperorPenguin">
+                            <button type="button" className="btn btn-primary">Learn More</button>
+                        </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="d-block w-70" src={penguinImage1} alt="Third slide" />
                     <Carousel.Caption>
-                        <h1>Slide Three</h1>
+                    <h5>Little Penguin</h5>
+                    <p class="orange-text">The smallest Penguin in the World</p>
+                    <Link to="LittleBluePenguin">
+                        <button type="button" className="btn btn-primary">Learn More</button>
+                    </Link>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
