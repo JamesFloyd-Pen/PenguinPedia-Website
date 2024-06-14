@@ -9,7 +9,6 @@ import './Penguin_Carousel.css';
 class Penguin_Carousel extends React.Component {
     render() {
         return (
-            <div className="carousel-wrapper">
                 <div className="carousel-container">
                     <Carousel interval={3000}>
                         <Carousel.Item>
@@ -44,7 +43,6 @@ class Penguin_Carousel extends React.Component {
                         </Carousel.Item>
                     </Carousel>
                 </div>
-            </div>
         );
     }
 }
