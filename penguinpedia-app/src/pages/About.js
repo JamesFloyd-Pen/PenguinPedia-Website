@@ -25,7 +25,7 @@ function About() {
             <Row>
                 <Col md={6}>
                     <h2 className="about-heading">Goal of PenguinPedia</h2>
-                    <p className="about-text">The Goal of PenguinPedia is to inform people of these awesome birds and the challenges they face. As globe warning continues to effect the earth, penguins increasing face challenges . One of the biggest I learn is from news to even discussions from my family on what tragedies occured in the south pole. </p>
+                    <p className="about-text">The Goal of PenguinPedia is to inform people of these awesome birds and the challenges they face. As global warning continues to effect the earth, penguins increasing face challenges . One of the biggest I learn is from news to even discussions from my family on what tragedies occured in the south pole. </p>
                 </Col>
                 <Col md={6}>
                     <p>Insert IMAGE HERE</p>
