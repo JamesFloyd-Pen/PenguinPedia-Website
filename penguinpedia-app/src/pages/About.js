@@ -28,10 +28,25 @@ function About() {
                     <p className="about-text">The Goal of PenguinPedia is to inform people of these awesome birds and the challenges they face. As globe warning continues to effect the earth, penguins increasing face challenges . One of the biggest I learn is from news to even discussions from my family on what tragedies occured in the south pole. </p>
                 </Col>
                 <Col md={6}>
+                    <p>Insert IMAGE HERE</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={6}>
+                    <h2 className="about-heading">About the Author</h2>
+                    <p className="about-text">Hello, my name is James Floyd. I grew up as a penguin enthusiastic during the 2000  penguin craze of the  time. I learned much of about these fascinating birds when I watched March of the Penguins, Madcessanger, and read numurous books like Mr Hopper's Penguins. </p>
+                </Col>
+                <Col md={6}>
+                    <p>Insert IMAGE HERE</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
                     <h2 className="about-heading">More Information</h2>
                     <p className="about-text">You can find information on penguin news and resources here.</p>
                     <p className="about-links">Insert Links</p>
                 </Col>
+
             </Row>
         </Container>
     );
