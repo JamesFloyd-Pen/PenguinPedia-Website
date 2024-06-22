@@ -1,6 +1,6 @@
 import React from 'react';
 import '../components/styles/About.css';
-import penguinImage from '../components/img/Emperor-Penguin-March.jpg';
+import MarchOfThePenguinsImage from '../components/img/Emperor-Penguin-March.jpg';
 import penguinPC from '../components/img/penguin-on-pc.jpg';
 import JPenImage from '../components/img/J-Pen-Avatar.png';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -15,7 +15,7 @@ function About() {
             </Row>
             <Row>
                 <Col md={6}>
-                    <img className="about-penguin-image" src={penguinImage} alt="Emperor Penguin march" />
+                    <img className="about-penguin-image" src={MarchOfThePenguinsImage} alt="Emperor Penguin march" />
                 </Col>
                 <Col md={6}>
                     <h2 className="about-heading">What is PenguinPedia?</h2>
@@ -87,8 +87,4 @@ Code Placeholder
                 </Col>
             </Row>
         </Container>
-
-
-
-
 */
