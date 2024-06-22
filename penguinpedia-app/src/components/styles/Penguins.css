@@ -28,10 +28,11 @@ The Template for all Penguin Pages. All wuld be styled the same way.
   text-align: center;
 }
 
+/*
 .info-section {
   border-right: 1px solid black;
 }
-
+*/
 .space-below {
   margin-bottom: 20px; /* adjust as needed */
 }
