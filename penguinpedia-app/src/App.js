@@ -40,16 +40,3 @@ function App() {
 }
 
 export default App;
-
-/*
-TODO
-          <PENGUIN_NAVBAR/>
-          <Route index component={Home}></Route>
-              <Route path="/" component={Home}></Route>
-          <Route path="/About" component={About}></Route>
-          <Route path="/Penguins" component={Penguins}></Route>
-          <Route path="/Location" component={Location}></Route>
-
-https://trello.com/b/AsGN7RJl/penguinpedia-website
-
-*/
