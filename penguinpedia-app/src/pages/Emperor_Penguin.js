@@ -3,7 +3,7 @@ import '../components/styles/Penguins.css';
 import penguinImage from '../components/img/emperorpenguin.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
-
+// Template for the Rest of the Penguin Species Pages
 
 function EmperorPenguin() {
     return (
