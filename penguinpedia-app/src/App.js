@@ -8,6 +8,9 @@ import Location from "./pages/Location";
 import Contact from "./pages/Contact";
 import EmperorPenguin from "./pages/Emperor_Penguin";
 import KingPenguin from "./pages/KingPenguin";
+import AdeliePenguin from "./pages/AdeliePenguin";
+import ChinstrapPenguin from "./pages/ChinstrapPenguin";
+import GentooPenguin from "./pages/GentooPenguin";
 import PENGUIN_NAVBAR from "./components/PENGUIN_NAVBAR";
 import PENGUIN_FOOTER from "./components/PENGUIN_FOOTER";
 
@@ -24,6 +27,9 @@ function App() {
         <Route path="/Contact" component={Contact} />
         <Route path="/EmperorPenguin" component={EmperorPenguin} />
         <Route path="/KingPenguin" component={KingPenguin} />
+        <Route path="/AdeliePenguin" component={AdeliePenguin} />
+        <Route path="/ChinstrapPenguin" component={ChinstrapPenguin} />
+        <Route path="/GentooPenguin" component={GentooPenguin} />
       </Switch>
       <PENGUIN_FOOTER />
 

@@ -4,7 +4,7 @@ import '../components/PENGUIN_FOOTER';
 import '../components/common/body/PENGUIN_BODY_VID';
 import '../components/common/body/card/PENGUIN_BODY_HERO_DAILYPENGUIN'
 import PENGUIN_BODY_VID from '../components/common/body/PENGUIN_BODY_VID';
-import PENGUIN_BODY_HERO_DAILYPENGUIN from "../components/common/body/card/PENGUIN_BODY_HERO_DAILYPENGUIN";
+//import PENGUIN_BODY_HERO_DAILYPENGUIN from "../components/common/body/card/PENGUIN_BODY_HERO_DAILYPENGUIN";
 import PENGUIN_CAROUSEL from "../components/common/body/Penguin_Carousel";
 import { Container, Row, Col } from 'react-bootstrap';
 
