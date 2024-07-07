@@ -11,6 +11,14 @@ import KingPenguin from "./pages/KingPenguin";
 import AdeliePenguin from "./pages/AdeliePenguin";
 import ChinstrapPenguin from "./pages/ChinstrapPenguin";
 import GentooPenguin from "./pages/GentooPenguin";
+import MacaroniPenguin from "./pages/MacaroniPenguin";
+import LittleBluePenguin from "./pages/LittleBluePenguin";
+import AfricanPenguin from "./pages/AfricanPenguin";
+import FiordlandPenguin from "./pages/FiordlandPenguin";
+import HumboldtPenguin from "./pages/HumboldtPenguin";
+import MagellanicPenguin from "./pages/MagellanicPenguin";
+import GalapagosPenguin from "./pages/GalapagosPenguin";
+import YellowEyedPenguin from "./pages/YellowEyedPenguin";
 import PENGUIN_NAVBAR from "./components/PENGUIN_NAVBAR";
 import PENGUIN_FOOTER from "./components/PENGUIN_FOOTER";
 
@@ -30,6 +38,14 @@ function App() {
         <Route path="/AdeliePenguin" component={AdeliePenguin} />
         <Route path="/ChinstrapPenguin" component={ChinstrapPenguin} />
         <Route path="/GentooPenguin" component={GentooPenguin} />
+        <Route path="/MacaroniPenguin" component={MacaroniPenguin} />
+        <Route path="/LittleBluePenguin" component={LittleBluePenguin} />
+        <Route path="/AfricanPenguin" component={AfricanPenguin} />
+        <Route path="/FiordlandPenguin" component={FiordlandPenguin} />
+        <Route path="/HumboldtPenguin" component={HumboldtPenguin} />
+        <Route path="/MagellanicPenguin" component={MagellanicPenguin} />
+        <Route path="/GalapagosPenguin" component={GalapagosPenguin} />
+        <Route path="/YellowEyedPenguin" component={YellowEyedPenguin} />
       </Switch>
       <PENGUIN_FOOTER />
 
