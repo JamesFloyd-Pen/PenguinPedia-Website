@@ -19,6 +19,11 @@ import HumboldtPenguin from "./pages/HumboldtPenguin";
 import MagellanicPenguin from "./pages/MagellanicPenguin";
 import GalapagosPenguin from "./pages/GalapagosPenguin";
 import YellowEyedPenguin from "./pages/YellowEyedPenguin";
+import NorthernRockhopperPenguin from "./pages/NorthernRockhopperPenguin";
+import SouthernRockhopperPenguin from "./pages/SouthernRockhopperPenguin";
+import SnaresPenguin from "./pages/SnaresPenguin";
+import RoyalPenguin from "./pages/RoyalPenguin";
+import ErectCrestedPenguin from "./pages/ErectCrestedPenguin";
 import PENGUIN_NAVBAR from "./components/PENGUIN_NAVBAR";
 import PENGUIN_FOOTER from "./components/PENGUIN_FOOTER";
 
@@ -46,6 +51,11 @@ function App() {
         <Route path="/MagellanicPenguin" component={MagellanicPenguin} />
         <Route path="/GalapagosPenguin" component={GalapagosPenguin} />
         <Route path="/YellowEyedPenguin" component={YellowEyedPenguin} />
+        <Route path="/NorthernRockhopperPenguin" component={NorthernRockhopperPenguin} />
+        <Route path="/SouthernRockhopperPenguin" component={SouthernRockhopperPenguin} />
+        <Route path="/SnaresPenguin" component={SnaresPenguin} />
+        <Route path="/RoyalPenguin" component={RoyalPenguin} />
+        <Route path="/ErectCrestedPenguin" component={ErectCrestedPenguin} />
       </Switch>
       <PENGUIN_FOOTER />
 
