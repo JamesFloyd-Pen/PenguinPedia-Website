@@ -1,6 +1,6 @@
 import React from "react";
-import '../components/PENGUIN_NAVBAR';
-import '../components/PENGUIN_FOOTER';
+import '../components/Penguin_navBar';
+import '../components/Penguin_footer';
 import '../components/common/body/PENGUIN_BODY_VID';
 import '../components/common/body/card/PENGUIN_BODY_HERO_DAILYPENGUIN'
 import PENGUIN_BODY_VID from '../components/common/body/PENGUIN_BODY_VID';

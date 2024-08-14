@@ -24,8 +24,8 @@ import SouthernRockhopperPenguin from "./pages/SouthernRockhopperPenguin";
 import SnaresPenguin from "./pages/SnaresPenguin";
 import RoyalPenguin from "./pages/RoyalPenguin";
 import ErectCrestedPenguin from "./pages/ErectCrestedPenguin";
-import PENGUIN_NAVBAR from "./components/PENGUIN_NAVBAR";
-import PENGUIN_FOOTER from "./components/PENGUIN_FOOTER";
+import PENGUIN_NAVBAR from "./components/Penguin_navBar";
+import PENGUIN_FOOTER from "./components/Penguin_footer";
 
 function App() {
   return (
