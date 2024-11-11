@@ -11,7 +11,7 @@ function MacaroniPenguin(){
                 <Col className="info-section">
                     <h2>Overview</h2>
                     <div className="image-box space-below">
-                        <img src={penguinImage} alt="Macaroni Penguin" />
+                        <img src={penguinImage} className="penguin-page-image-thumbnail" alt="Macaroni Penguin" />
                     </div>
                 </Col>
                 <Col className="info-penguin-box" xs={12} md={3}>

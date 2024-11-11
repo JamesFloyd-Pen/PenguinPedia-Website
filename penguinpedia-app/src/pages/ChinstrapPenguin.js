@@ -11,7 +11,7 @@ function ChinstrapPenguin(){
                 <Col className="info-section">
                     <h2>Overview</h2>
                     <div className="image-box space-below">
-                        <img src={penguinImage} alt="Chinstrap Penguin"  className="penguin-page-image-small"/>
+                        <img src={penguinImage} alt="Chinstrap Penguin"  className="penguin-page-image-thumbnail"/>
                     </div>
                 </Col>
                 <Col className="info-penguin-box" xs={12} md={3}>

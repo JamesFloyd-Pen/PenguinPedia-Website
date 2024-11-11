@@ -1,6 +1,6 @@
 import React from 'react';
 import '../components/styles/Penguins.css';
-import penguinImage from '../components/img/emperorpenguin.jpg';
+import penguinImage from '../components/img/lilblue-penguin.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -11,7 +11,7 @@ function LittleBluePenguin(){
                 <Col className="info-section">
                     <h2>Overview</h2>
                     <div className="image-box space-below">
-                        <img src={penguinImage} alt="Little Blue Penguin" />
+                        <img src={penguinImage} className="penguin-page-image-thumbnail" alt="Little Blue Penguin" />
                     </div>
                 </Col>
                 <Col className="info-penguin-box" xs={12} md={3}>

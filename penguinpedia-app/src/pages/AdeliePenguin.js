@@ -11,7 +11,7 @@ function AdeliePenguin() {
                 <Col className="info-section">
                     <h2>Overview</h2>
                     <div className="image-box space-below">
-                        <img src={penguinImage} alt="Adelie Penguin" />
+                        <img src={penguinImage} className="penguin-page-image-thumbnail" alt="Adelie Penguin" />
                     </div>
                 </Col>
                 <Col className="info-penguin-box" xs={12} md={3}>
