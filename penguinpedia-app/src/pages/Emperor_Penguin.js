@@ -1,6 +1,6 @@
 import React from 'react';
 import '../components/styles/Penguins.css';
-import penguinImage from '../components/img/emperorpenguin.jpg';
+import penguinImage from '../components/img/emperorpenguin-2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 // Template for the Rest of the Penguin Species Pages
@@ -12,7 +12,7 @@ function EmperorPenguin() {
                 <Col className="info-section">
                     <h2>Overview</h2>
                     <div className="image-box space-below">
-                        <img src={penguinImage} alt="Emperor Penguin" />
+                        <img src={penguinImage} className="penguin-page-image-thumbnail" alt="Emperor Penguin" />
                     </div>
                 </Col>
                 <Col className="info-penguin-box" xs={12} md={3}>
