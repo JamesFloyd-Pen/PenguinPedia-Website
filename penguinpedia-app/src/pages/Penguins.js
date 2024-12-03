@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import Link from 'react-router-dom/Link';
+import { Link } from 'react-router-dom';
 import EmperorPenguin_Img from '../components/img/emperorpenguin.jpg';
 import GentooPenguin_Img from '../components/img/gentoopenguin-two.jpg';
 import KingPenguin_Img from '../components/img/kingpenguin-two.jpg';
