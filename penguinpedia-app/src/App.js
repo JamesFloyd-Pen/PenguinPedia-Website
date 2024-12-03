@@ -1,67 +1,64 @@
-import React from "react";
-import './components/styles/App.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Penguins from "./pages/Penguins";
-import Location from "./pages/Location";
-import Contact from "./pages/Contact";
-import EmperorPenguin from "./pages/Emperor_Penguin";
-import KingPenguin from "./pages/KingPenguin";
-import AdeliePenguin from "./pages/AdeliePenguin";
-import ChinstrapPenguin from "./pages/ChinstrapPenguin";
-import GentooPenguin from "./pages/GentooPenguin";
-import MacaroniPenguin from "./pages/MacaroniPenguin";
-import LittleBluePenguin from "./pages/LittleBluePenguin";
-import AfricanPenguin from "./pages/AfricanPenguin";
-import FiordlandPenguin from "./pages/FiordlandPenguin";
-import HumboldtPenguin from "./pages/HumboldtPenguin";
-import MagellanicPenguin from "./pages/MagellanicPenguin";
-import GalapagosPenguin from "./pages/GalapagosPenguin";
-import YellowEyedPenguin from "./pages/YellowEyedPenguin";
-import NorthernRockhopperPenguin from "./pages/NorthernRockhopperPenguin";
-import SouthernRockhopperPenguin from "./pages/SouthernRockhopperPenguin";
-import SnaresPenguin from "./pages/SnaresPenguin";
-import RoyalPenguin from "./pages/RoyalPenguin";
-import ErectCrestedPenguin from "./pages/ErectCrestedPenguin";
-import PENGUIN_NAVBAR from "./components/Penguin_navBar";
-import PENGUIN_FOOTER from "./components/Penguin_footer";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Penguins from './pages/Penguins';
+import Location from './pages/Location';
+import Contact from './pages/Contact';
+import EmperorPenguin from './pages/EmperorPenguin';
+import KingPenguin from './pages/KingPenguin';
+import AdeliePenguin from './pages/AdeliePenguin';
+import ChinstrapPenguin from './pages/ChinstrapPenguin';
+import GentooPenguin from './pages/GentooPenguin';
+import MacaroniPenguin from './pages/MacaroniPenguin';
+import LittleBluePenguin from './pages/LittleBluePenguin';
+import AfricanPenguin from './pages/AfricanPenguin';
+import FiordlandPenguin from './pages/FiordlandPenguin';
+import HumboldtPenguin from './pages/HumboldtPenguin';
+import MagellanicPenguin from './pages/MagellanicPenguin';
+import GalapagosPenguin from './pages/GalapagosPenguin';
+import YellowEyedPenguin from './pages/YellowEyedPenguin';
+import NorthernRockhopperPenguin from './pages/NorthernRockhopperPenguin';
+import SouthernRockhopperPenguin from './pages/SouthernRockhopperPenguin';
+import SnaresPenguin from './pages/SnaresPenguin';
+import RoyalPenguin from './pages/RoyalPenguin';
+import ErectCrestedPenguin from './pages/ErectCrestedPenguin';
+import PENGUIN_NAVBAR from './components/Penguin_navBar';
+import PENGUIN_FOOTER from './components/Penguin_footer';
 
 function App() {
   return (
     <div className="App">
-    <Router>
-      <PENGUIN_NAVBAR />
-      <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/Penguins" component={Penguins} />
-        <Route path="/Location" component={Location} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/EmperorPenguin" component={EmperorPenguin} />
-        <Route path="/KingPenguin" component={KingPenguin} />
-        <Route path="/AdeliePenguin" component={AdeliePenguin} />
-        <Route path="/ChinstrapPenguin" component={ChinstrapPenguin} />
-        <Route path="/GentooPenguin" component={GentooPenguin} />
-        <Route path="/MacaroniPenguin" component={MacaroniPenguin} />
-        <Route path="/LittleBluePenguin" component={LittleBluePenguin} />
-        <Route path="/AfricanPenguin" component={AfricanPenguin} />
-        <Route path="/FiordlandPenguin" component={FiordlandPenguin} />
-        <Route path="/HumboldtPenguin" component={HumboldtPenguin} />
-        <Route path="/MagellanicPenguin" component={MagellanicPenguin} />
-        <Route path="/GalapagosPenguin" component={GalapagosPenguin} />
-        <Route path="/YellowEyedPenguin" component={YellowEyedPenguin} />
-        <Route path="/NorthernRockhopperPenguin" component={NorthernRockhopperPenguin} />
-        <Route path="/SouthernRockhopperPenguin" component={SouthernRockhopperPenguin} />
-        <Route path="/SnaresPenguin" component={SnaresPenguin} />
-        <Route path="/RoyalPenguin" component={RoyalPenguin} />
-        <Route path="/ErectCrestedPenguin" component={ErectCrestedPenguin} />
-      </Switch>
-      <PENGUIN_FOOTER />
-
-    </Router>
-  </div>
-
+      <Router basename="/PenguinPedia-Website">
+        <PENGUIN_NAVBAR />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/Penguins" element={<Penguins />} />
+          <Route path="/Location" element={<Location />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/EmperorPenguin" element={<EmperorPenguin />} />
+          <Route path="/KingPenguin" element={<KingPenguin />} />
+          <Route path="/AdeliePenguin" element={<AdeliePenguin />} />
+          <Route path="/ChinstrapPenguin" element={<ChinstrapPenguin />} />
+          <Route path="/GentooPenguin" element={<GentooPenguin />} />
+          <Route path="/MacaroniPenguin" element={<MacaroniPenguin />} />
+          <Route path="/LittleBluePenguin" element={<LittleBluePenguin />} />
+          <Route path="/AfricanPenguin" element={<AfricanPenguin />} />
+          <Route path="/FiordlandPenguin" element={<FiordlandPenguin />} />
+          <Route path="/HumboldtPenguin" element={<HumboldtPenguin />} />
+          <Route path="/MagellanicPenguin" element={<MagellanicPenguin />} />
+          <Route path="/GalapagosPenguin" element={<GalapagosPenguin />} />
+          <Route path="/YellowEyedPenguin" element={<YellowEyedPenguin />} />
+          <Route path="/NorthernRockhopperPenguin" element={<NorthernRockhopperPenguin />} />
+          <Route path="/SouthernRockhopperPenguin" element={<SouthernRockhopperPenguin />} />
+          <Route path="/SnaresPenguin" element={<SnaresPenguin />} />
+          <Route path="/RoyalPenguin" element={<RoyalPenguin />} />
+          <Route path="/ErectCrestedPenguin" element={<ErectCrestedPenguin />} />
+        </Routes>
+        <PENGUIN_FOOTER />
+      </Router>
+    </div>
   );
 }
 
