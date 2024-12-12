@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PenguinPedia-Website/static/css/main.1bf6937c.css",
-    "main.js": "/PenguinPedia-Website/static/js/main.50357d3a.js",
+    "main.js": "/PenguinPedia-Website/static/js/main.e72935a9.js",
     "static/js/453.9e7ae668.chunk.js": "/PenguinPedia-Website/static/js/453.9e7ae668.chunk.js",
     "static/media/emperorpenguin-2.jpg": "/PenguinPedia-Website/static/media/emperorpenguin-2.b3de709e40c7d775b8b9.jpg",
     "static/media/africanpenguin.jpg": "/PenguinPedia-Website/static/media/africanpenguin.fe560c859decc2a4d08e.jpg",
@@ -34,11 +34,11 @@
     "static/media/J-Pen-Avatar.png": "/PenguinPedia-Website/static/media/J-Pen-Avatar.582365943e566340afe6.png",
     "index.html": "/PenguinPedia-Website/index.html",
     "main.1bf6937c.css.map": "/PenguinPedia-Website/static/css/main.1bf6937c.css.map",
-    "main.50357d3a.js.map": "/PenguinPedia-Website/static/js/main.50357d3a.js.map",
+    "main.e72935a9.js.map": "/PenguinPedia-Website/static/js/main.e72935a9.js.map",
     "453.9e7ae668.chunk.js.map": "/PenguinPedia-Website/static/js/453.9e7ae668.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bf6937c.css",
-    "static/js/main.50357d3a.js"
+    "static/js/main.e72935a9.js"
   ]
 }
