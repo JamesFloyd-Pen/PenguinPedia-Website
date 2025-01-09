@@ -11,7 +11,7 @@ class PENGUIN_NAVBAR extends Component {
         return ( 
             <div>
                 <Navbar bg="light" expand="lg">
-                <Navbar.Brand as={Link} to="/">PenguinPedia</Navbar.Brand>
+                <Navbar.Brand className="ms-3" as={Link} to="/">PenguinPedia</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
