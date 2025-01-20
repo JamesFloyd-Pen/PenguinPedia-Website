@@ -1,44 +1,83 @@
-.d-block {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.orange-text, h5{
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-}
-
-.carousel {
-    width: 500px;
-    height: 500px;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
+/* General Styling for Carousel Container */
 .carousel-container {
     display: flex;
     justify-content: center;
-    width: 500px;
-    height: 325px;
-    border: 2px solid #a0c4ff; /* Icy blue color */
-    border-radius: 0; /* Square shape */
-    overflow: hidden; /* Hide the parts of the Carousel that are outside the border */
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Set a max-width for responsiveness */
+    margin: 0 auto; /* Center the carousel */
+    border: 2px solid #1C1C1C; /* Penguin Black border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    background-color: #1C1C1C; /* Penguin Black background */
 }
 
+/* Carousel Item Styling */
+.carousel-item {
+    height: 100%; /* Ensure items fit within the container height */
+}
 
-.carousel-wrapper {
+/* Carousel Image Styling */
+.carousel-item img {
+    width: 100%; /* Make the image fill the width of the container */
+    height: 400px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the images cover the container without stretching */
+    object-position: center center; /* Center the image within the container */
+}
+
+/* Caption Styling */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 5px;
+    padding: 10px;
+    color: white; /* White text for captions */
+}
+
+/* Styling the Arrow Controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 60px; /* Larger arrow controls */
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1C1C1C; /* Penguin Black for arrow background */
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
+    z-index: 1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    border: 3px solid #FFA500; /* Orange border for better visibility */
+}
+
+/* Arrow Hover Effect */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #FFA500; /* Penguin Orange for hover effect */
+    border: 3px solid #1C1C1C; /* Revert to black border on hover */
+}
+
+/* Previous Arrow Specific Styling */
+.carousel-control-prev {
+    background-color: #1C1C1C; /* Penguin Black for background */
+    border: 3px solid #FFA500; /* Adding an orange border for visibility */
+}
+
+/* Arrows Inside Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    color: white;
+}
+
+/* Make Carousel Responsive */
+@media (max-width: 768px) {
+    .carousel-container {
+        max-width: 100%;
+    }
+    .carousel-item img {
+        height: auto; /* Auto height on smaller screens */
+    }
 }

@@ -6,46 +6,44 @@ import penguinImage2 from './emperor-penguins-going-into-water.jpg';
 import penguinImage3 from './lil-penguin-nest.jpg';
 import './Penguin_Carousel.css';
 
-
-class Penguin_Carousel extends React.Component {
-    render() {
-        return (
-            <div>
-                <Carousel>
-                    <Carousel.Item>
-                        <img className="d-block w-70" src={penguinImage1} alt="First slide" />
-                        <Carousel.Caption>
-                            <h5>Adelie Penguin</h5>
-                            <p className="orange-text">A common species of penguin</p>
-                            <Link to="/AdeliePenguin">
-                                <button type="button" className="btn btn-primary">Learn More</button>
-                            </Link>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-70" src={penguinImage2} alt="Second slide" />
-                        <Carousel.Caption>
-                            <h5>Emperor Penguin</h5>
-                            <p className="orange-text">The Largest Penguin in the World</p>
-                            <Link to="/EmperorPenguin">
-                                <button type="button" className="btn btn-primary">Learn More</button>
-                            </Link>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-70" src={penguinImage3} alt="Third slide" />
-                        <Carousel.Caption>
-                            <h5>Little Penguin</h5>
-                            <p className="orange-text">The smallest Penguin in the World</p>
-                            <Link to="/LittleBluePenguin">
-                                <button type="button" className="btn btn-primary">Learn More</button>
-                            </Link>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div>
-        );
+const penguinData = [
+    {
+        image: penguinImage1,
+        title: "Adelie Penguin",
+        description: "A common species of penguin",
+        link: "/AdeliePenguin"
+    },
+    {
+        image: penguinImage2,
+        title: "Emperor Penguin",
+        description: "The Largest Penguin in the World",
+        link: "/EmperorPenguin"
+    },
+    {
+        image: penguinImage3,
+        title: "Little Penguin",
+        description: "The smallest Penguin in the World",
+        link: "/LittleBluePenguin"
     }
-}
+];
 
-export default Penguin_Carousel;
+const PenguinCarousel = () => (
+    <div className="carousel-container">
+        <Carousel>
+            {penguinData.map(({ image, title, description, link }, index) => (
+                <Carousel.Item key={index}>
+                    <img className="d-block w-100" src={image} alt={`${title} slide`} />
+                    <Carousel.Caption>
+                        <h5>{title}</h5>
+                        <p className="orange-text">{description}</p>
+                        <Link to={link}>
+                            <button type="button" className="btn btn-primary">Learn More</button>
+                        </Link>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            ))}
+        </Carousel>
+    </div>
+);
+
+export default PenguinCarousel;
