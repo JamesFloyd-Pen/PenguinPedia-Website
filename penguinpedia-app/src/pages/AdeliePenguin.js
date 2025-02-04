@@ -32,7 +32,9 @@ function AdeliePenguin() {
             <Row className="justify-content-md-center">
                 <Col>
                     <p className="overview-text">
-                        The Adelie Penguin is a species of penguin that is native to the Antarctic coast and nearby islands. They are known for their distinctive white ring around the eyes. Adelie Penguins are the smallest and most widely distributed species of penguin in the Antarctic region. They are proficient swimmers and can dive to depths of up to 175 meters in search of food.
+                        The Adélie Penguin (Pygoscelis adeliae) is a medium-sized penguin species native to the Antarctic coast and surrounding islands. Recognized by their distinctive white eye rings and black-and-white plumage, Adélie Penguins are one of the most widespread penguin species in Antarctica. They inhabit the continent’s ice-free coastal regions, where they form large breeding colonies.
+
+                        Adélie Penguins are exceptional swimmers, capable of diving up to 180 meters (590 feet) to hunt for krill, fish, and squid. They rely on sea ice for foraging and are highly adapted to the harsh Antarctic environment. These penguins play a crucial role in the Antarctic ecosystem, serving as indicators of environmental changes due to their dependence on sea ice and prey availability.
                     </p>
                 </Col>
             </Row>
@@ -42,3 +44,6 @@ function AdeliePenguin() {
 
 
 export default AdeliePenguin;
+
+//The Adelie Penguin is a species of penguin that is native to the Antarctic coast and nearby islands. They are known for their distinctive white ring around the eyes. Adelie Penguins are the smallest and most widely distributed species of penguin in the Antarctic region. They are proficient swimmers and can dive to depths of up to 175 meters in search of food.
+

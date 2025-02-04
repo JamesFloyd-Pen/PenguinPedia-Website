@@ -13,26 +13,30 @@ import '../components/styles/Hero.css';
 const backgroundImage = process.env.PUBLIC_URL + '/images/HD_Emperor_Penguin.jpg';
 
 
-function Home(){
-    return(
+function Home() {
+    return (
         <div className="Hero" style={{ 'backgroundImage': `url(${backgroundImage})` }}>
             <Container>
+                <Row className="justify-content-md-center">
+                    <Col md="auto">
+                        <br></br>
+                        <h1> Welcome to PenguinPedia! </h1>
+                        <br></br>
+                        <PENGUIN_CAROUSEL />
+                    </Col>
+                </Row>
                 <Row className="justify-content-md-center">
                     <Col md="auto">
                         <PENGUIN_BODY_VID />
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center">
-                    <Col md="auto">
-                        <PENGUIN_CAROUSEL />
-                    </Col>
-                </Row>
+
             </Container>
         </div>
     );
 
-//            <PENGUIN_NAVBAR />
-//            <PENGUIN_BODY_HERO_DAILYPENGUIN />
+    //            <PENGUIN_NAVBAR />
+    //            <PENGUIN_BODY_HERO_DAILYPENGUIN />
 
 }
 export default Home;
