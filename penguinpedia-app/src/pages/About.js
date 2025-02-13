@@ -44,7 +44,7 @@ function About() {
                 <Col>
                     <h2 className="about-heading">More Information</h2>
                     <p className="about-text">You can find information on penguin news and resources here.</p>
-                    <p className="about-links">Insert Links</p>
+                    <a href="https://www.bbc.com/news/topics/c90ymkx093pt" className="about-links">BBC Penguin News </a>
                 </Col>
 
             </Row>

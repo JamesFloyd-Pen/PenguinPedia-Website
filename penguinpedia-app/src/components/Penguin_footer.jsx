@@ -25,3 +25,13 @@ class PENGUIN_FOOTER extends Component {
 }
  
 export default PENGUIN_FOOTER;
+
+/*
+
+      <ul className="social-media-links">
+        <li><a href="https://www.facebook.com/james.floyd.372/">Facebook</a></li>
+        <li><a href="https://x.com/JamesFloydIV">Twitter</a></li>
+        <li><a href="https://www.instagram.com/commanderpip/">Instagram</a></li>
+      </ul>
+
+*/

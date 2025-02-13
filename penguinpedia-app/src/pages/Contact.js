@@ -1,33 +1,36 @@
 import React from 'react';
+import { Form, Button, Container } from 'react-bootstrap';
 import '../components/styles/App.css';
 
 function Contact() {
   return (
-    <div>
+    <Container>
       <h1>Contact Us</h1>
-      <form className="contact-form">
-        <label>
-          Name:
-          <input type="text" name="name" />
-        </label>
-        <label>
-          Email:
-          <input type="email" name="email" />
-        </label>
-        <label>
-          Message:
-          <textarea name="message"></textarea>
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
+      <Form className="contact-form">
+        <Form.Group className="mb-3" controlId="formName">
+          <Form.Label>Name</Form.Label>
+          <Form.Control type="text" name="name" placeholder="Enter your name" />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formEmail">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" name="email" placeholder="Enter your email" />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formMessage">
+          <Form.Label>Message</Form.Label>
+          <Form.Control as="textarea" name="message" rows={3} placeholder="Enter your message" />
+        </Form.Group>
+        <Button variant="dark" type="submit">
+          Submit
+        </Button>
+      </Form>
 
       <h2>Follow us on social media</h2>
       <ul className="social-media-links">
-        <li><a href="https://www.facebook.com">Facebook</a></li>
-        <li><a href="https://www.twitter.com">Twitter</a></li>
-        <li><a href="https://www.instagram.com">Instagram</a></li>
+        <li><a href="https://www.facebook.com/james.floyd.372/">Facebook</a></li>
+        <li><a href="https://x.com/JamesFloydIV">Twitter</a></li>
+        <li><a href="https://www.instagram.com/commanderpip/">Instagram</a></li>
       </ul>
-    </div>
+    </Container>
   );
 }
 
