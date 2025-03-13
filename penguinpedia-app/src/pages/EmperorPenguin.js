@@ -37,6 +37,27 @@ function EmperorPenguin() {
                     </p>
                 </Col>
             </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Physical Description</h2>
+                    <p className="overview-text">
+                        Emperor Penguins are easily recognizable by their distinctive black and white plumage. They have a black
+                        head, back, and flippers, with a white belly and chest. Emperor Penguins are the tallest and heaviest of all
+                        penguin species, with adults reaching heights of up to 130 cm and weights of up to 45 kg. They have a
+                        streamlined body shape and long, stiff flippers that make them powerful swimmers.   
+                    </p>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Fun Facts</h2>
+                    <p>
+                        - Emperor Penguins are the only penguins that breed during the harsh Antarctic winter. <br />
+                        - Emperor Penguin colonies have been discovered from space! <br />
+
+                    </p>
+                </Col>
+            </Row>
         </Container>
     );
 }
@@ -73,7 +94,8 @@ export default EmperorPenguin;
             </div>
         </div>
 
-
+        SOURCE
+        * https://www.wwf.org.uk/learn/fascinating-facts/emperor-penguins
 
 
 
