@@ -36,6 +36,25 @@ function ChinstrapPenguin(){
                     </p>
                 </Col>
             </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Physical Description</h2>
+                    <p className="overview-text">
+                        Chinstrap Penguins are easily recognizable by the narrow black band that runs under their chin, giving them a distinctive appearance. They have a black head
+                        and back, with a white belly and chest. Chinstrap Penguins are medium-sized penguins, with adults reaching heights of up to 68 cm and weights of up to 5 kg. They have a streamlined body shape and long, stiff flippers that make them powerful swimmers.
+                    </p>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Fun Facts</h2>
+                    <p>
+                        - Chinstrap Penguins are known for the distinctive narrow black band under their chin. <br />
+                        - Chinstrap Penguins are highly social and breed in large colonies. <br />
+                        - Chinstrap Penguins are proficient swimmers and can dive to depths of up to 70 meters in search of food. <br />
+                    </p>
+                </Col>
+            </Row>
         </Container>
     );
 }

@@ -38,6 +38,25 @@ function AdeliePenguin() {
                     </p>
                 </Col>
             </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Physical Description</h2>
+                    <p className="overview-text">
+                        Adélie Penguins are easily recognizable
+                        by their black head and back, white belly, and distinctive white eye rings. They have a streamlined body shape, with a height of up to 70 cm (28 inches) and a weight of 3.6 to 6 kg (8 to 13 lbs). Adélie Penguins have short, stiff tails and flippers that enable them to swim with agility and speed. Their wings are adapted into flippers for efficient underwater propulsion.
+                    </p>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Fun Facts</h2>
+                    <p>
+                        - Adélie Penguins are named after the wife of French explorer Jules Dumont d'Urville. <br />
+                        - Adélie Penguins form large breeding colonies along the Antarctic coast. <br />
+                        - Adélie Penguins are excellent swimmers and divers, capable of reaching depths of up to 180 meters. <br />
+                    </p>
+                </Col>
+            </Row>
         </Container>
     );
 }
@@ -45,5 +64,4 @@ function AdeliePenguin() {
 
 export default AdeliePenguin;
 
-//The Adelie Penguin is a species of penguin that is native to the Antarctic coast and nearby islands. They are known for their distinctive white ring around the eyes. Adelie Penguins are the smallest and most widely distributed species of penguin in the Antarctic region. They are proficient swimmers and can dive to depths of up to 175 meters in search of food.
 

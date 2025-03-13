@@ -36,6 +36,25 @@ function FiordlandPenguin(){
                     </p>
                 </Col>
             </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Physical Description</h2>
+                    <p className="overview-text">
+                        Fiordland Penguins are easily recognizable by their distinctive yellow crest and red eyes. They have a black head
+                        and back, with a white belly and chest. Fiordland Penguins are medium-sized penguins, with adults reaching heights of up to 70 cm and weights of up to 6 kg. They have a streamlined body shape and long, stiff flippers that make them powerful swimmers.
+                    </p>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Fun Facts</h2>
+                    <p>
+                        - Fiordland Penguins are known for their distinctive yellow crest and red eyes. <br />
+                        - Fiordland Penguins are highly social and breed in colonies. <br />
+                        - Fiordland Penguins are proficient swimmers and feed on fish and squid. <br />
+                    </p>
+                </Col>
+            </Row>
         </Container>
     );
 }

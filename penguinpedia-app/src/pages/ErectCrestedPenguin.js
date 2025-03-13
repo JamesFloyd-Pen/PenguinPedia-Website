@@ -36,6 +36,24 @@ function ErectCrestedPenguin(){
                     </p>
                 </Col>
             </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Physical Description</h2>
+                    <p className="overview-text">
+                        Erect Crested Penguins are medium-sized penguins with a distinctive appearance. They have a robust body, a short, thick neck, and a relatively large head. Their most notable feature is the crest of spiky yellow and black feathers that extends from the top of their head to the back of their neck. This crest is more pronounced in males than in females.
+                        Their plumage is primarily black on the back, head, and flippers, while their belly and chest are white. They have a black beak and reddish-brown eyes. Their flippers are long and narrow, adapted for efficient swimming. The legs and feet are pinkish in color, and they have strong claws that help them climb rocky terrain on their breeding islands.
+                        Juvenile Erect Crested Penguins have a similar appearance to adults but with less pronounced crests and a more muted coloration. As they mature, their crests become more prominent, and their plumage takes on the characteristic black and white pattern of adults.
+                    </p>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Fun Facts</h2>
+                    <p> 
+                        - Erect Crested Penguins live on islands without mammals.
+                    </p>
+                </Col>
+            </Row>
         </Container>
     );
 }
