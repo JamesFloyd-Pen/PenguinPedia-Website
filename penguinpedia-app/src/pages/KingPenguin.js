@@ -36,8 +36,29 @@ function KingPenguin() {
                     </p>
                 </Col>
             </Row>
+            <Row className="justify-content-md-center ">
+                <Col>
+                    <h2>Physical Description</h2>
+                    <p className="overview-text">
+                    King Penguins are easily recognizable by their distinctive black and white plumage and bright orange cheek patches. They have a black head
+                    and back, with a white belly and chest. King Penguins are the second largest penguin species, with adults reaching heights of up to 95 cm and weights of up to 16 kg. They have a streamlined body shape and long, stiff flippers that make them powerful swimmers.
+                    </p>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <h2>Fun Facts</h2>
+                    <p>
+                        - King Penguins are the second largest penguin species, after the Emperor Penguin. <br />
+                        - King Penguins are known for their distinctive orange cheek patches. <br />
+                        - King Penguins breed in large colonies on sandy or pebble beaches during the summer. <br />
+                    </p>
+                </Col>
+            </Row>
         </Container>
     );
 }
 
 export default KingPenguin;
+
+//penguin-page-background-color

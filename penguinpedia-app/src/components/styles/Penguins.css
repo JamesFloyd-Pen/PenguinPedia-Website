@@ -70,3 +70,8 @@ The Template for all Penguin Pages. All wuld be styled the same way.
   border-radius: 8px;  /* Optional: rounds the corners of the image */
   overflow: hidden;    /* Ensures the image doesn't overflow the container */
 }
+
+/* Styling For Row Color Background*/
+.penguin-page-background-color{
+  background-color: #0016dd;
+}
