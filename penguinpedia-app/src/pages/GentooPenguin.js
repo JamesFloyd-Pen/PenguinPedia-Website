@@ -36,6 +36,25 @@ function GentooPenguin(){
                     </p>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <h2>Physical Description</h2>
+                    <p className="overview-text">
+                        Gentoo Penguins are easily recognizable by their distinctive orange-red bill and white patches on the head. They have a black
+                        head, back, and flippers, with a white belly and chest. Gentoo Penguins are the third largest species of penguin, with adults reaching heights of up to 76 cm and weights of up to 8 kg. They have a streamlined body shape and long, stiff flippers that make them powerful swimmers.
+                    </p>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h2>Fun Facts</h2>
+                    <p>
+                        - Gentoo Penguins are the third largest species of penguin. <br />
+                        - Gentoo Penguins are highly social birds that breed in large colonies. <br />
+                        - Gentoo Penguins are excellent swimmers and can reach speeds of up to 36 km/h in the water. <br />
+                    </p>
+                </Col>
+            </Row>
         </Container>
 
     );

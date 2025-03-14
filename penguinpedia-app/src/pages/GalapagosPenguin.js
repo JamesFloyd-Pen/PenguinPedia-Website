@@ -36,6 +36,25 @@ function GalapagosPenguin(){
                     </p>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <h2>Physical Description</h2>
+                    <p className="overview-text">
+                        Galapagos Penguins are easily recognizable by their distinctive black and white plumage. They have a black
+                        head, back, and flippers, with a white belly and chest. Galapagos Penguins are the second smallest penguin species in the world, with adults reaching heights of up to 53 cm and weights of up to 2.5 kg. They have a streamlined body shape and long, stiff flippers that make them powerful swimmers.
+                    </p>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h2>Fun Facts</h2>
+                    <p>
+                        - Galapagos Penguins are the only penguin species that live north of the equator in the wild. <br />
+                        - Galapagos Penguins are highly adapted to warm climates and have a reduced breeding season. <br />
+                        - Galapagos Penguins feed on fish and squid, and are known for their distinctive black and white plumage. <br />
+                    </p>
+                </Col>
+            </Row>
         </Container>
     );
 }
