@@ -4,7 +4,7 @@ PenguinPedia website version of an encyclopedia of the known penguins on the pla
 
 # Languages and Tools Used
 - HTML5
-- ReactJS
+- React
 - Javascript
 - CSS
 - Bootstrap
