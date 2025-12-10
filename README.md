@@ -9,6 +9,7 @@ PenguinPedia website version of an encyclopedia of the known penguins on the pla
 - CSS
 - Bootstrap
 - Editor: Visual Studio Code
+- AI Agent: Github Pilot (ChatGPT)
 
 # ProtoType 
 ![Demo One](https://github.com/JamesFloyd-Pen/PenguinPedia-Website/blob/main/PenguinList-Mk3.PNG?raw=true)
